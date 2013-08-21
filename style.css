@@ -1,3 +1,10 @@
 /*
-Theme Name: TwentyTen Child
+Theme Name: TwentyThirteen Child
+Description: My practice theme for learning how to develop child themes
+Author: Thomas Z Lukoma
+Author URI: http://morethanahut.com
+Version 1.0
+Template: twentythirteen
 */
+
+@import url('../twentythirteen/style.css');
