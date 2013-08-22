@@ -104,15 +104,3 @@ body {
 #content {
 	max-width: 1040px;
 }
-
-#header-logo {
-	background-image: url(logo.png); 
-	background-repeat: no-repeat; 
-	background-position: inherit; 
-	padding-top: 50px;
-}
-
-.navbar {
-	max-width:1450px;
-	float:right;
-}
