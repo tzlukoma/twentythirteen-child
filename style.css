@@ -67,15 +67,36 @@ body {
 	background-color: rgba(238,0,140,0.51); 
 }
 
+.site-header .search-field {
+    background-color: white;
+    background-image: url("images/search-icon.png");
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    border: medium none;
+    cursor: pointer;
+    height: 37px;
+    margin: 3px 0;
+    padding: 0 0 0 34px;
+    position: relative;
+    transition: width 200ms ease 0s, background 200ms ease 0s;
+    width: 0;
+}
+
+#navbar {
+	border-top:5px solid green;
+}
+
 .navbar {
-    background-color: #99005A;
+    background-color: white;
     margin: 0 auto;
     max-width: 1600px;
     width: 100%;
+    padding-left: 550px;
 }
 
 .nav-menu li a {
-	color:white;
+	color:black;
 }
 
 /* Move the sidebar to the left. */
@@ -103,4 +124,18 @@ body {
 
 #content {
 	max-width: 1040px;
+}
+
+.page-title {
+	display:none;
+}
+
+.widget {
+    -moz-hyphens: auto;
+    background-color: transparent;
+    font-size: 14px;
+    margin: 0 0 12px;
+    padding: 20px;
+    word-wrap: break-word;
+    max-width: 200px;
 }
