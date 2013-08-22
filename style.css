@@ -77,3 +77,26 @@ body {
 .nav-menu li a {
 	color:white;
 }
+
+/* Move the sidebar to the left. */
+
+.site-main .widget-area {
+	float: left;
+}
+
+.widget-area a {
+	max-width: 100%;
+}
+
+/**
+ * Move Content Area Left
+ * ----------------------------------------------------------------------------
+ */
+
+.sidebar .entry-header,
+.sidebar .entry-content,
+.sidebar .entry-summary,
+.sidebar .entry-meta {
+	padding-left: 376px;
+	padding-right: 60px;
+}
