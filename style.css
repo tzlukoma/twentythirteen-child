@@ -77,14 +77,3 @@ body {
 .nav-menu li a {
 	color:white;
 }
-
-/*
-#content {
-  float:left;
-  width:588px;
-}
-*/
-.site-main .widget-area {
-  float:right;
-  width:272px;
-}
