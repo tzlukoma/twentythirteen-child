@@ -100,3 +100,7 @@ body {
 	padding-left: 376px;
 	padding-right: 60px;
 }
+
+#content {
+	max-width: 1040px;
+}
