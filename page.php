@@ -27,7 +27,7 @@ get_header(); ?>
 						</div>
 						<?php endif; ?>
 
-						<h1 class="entry-title" id="home-page-title"><?php the_title(); ?></h1>
+						<h1 class="entry-title"><?php the_title(); ?></h1>
 					</header><!-- .entry-header -->
 
 					<div class="entry-content">
@@ -40,10 +40,11 @@ get_header(); ?>
 					</footer><!-- .entry-meta -->
 				</article><!-- #post -->
 
+				<?php comments_template(); ?>
 			<?php endwhile; ?>
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
+<?php get_sidebar('main'); ?>
 <?php get_footer(); ?>
